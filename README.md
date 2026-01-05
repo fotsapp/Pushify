@@ -1,6 +1,6 @@
 # Pushify - Firebase Push Notification Sender for IntelliJ
 
-![Pushify Logo](ide-plugin/src/main/resources/pushify.svg)
+![Pushify Logo](pushify-plugin/src/main/resources/pushify.svg)
 
 **Pushify** is an IntelliJ IDEA / Android Studio plugin that allows you to send Firebase Cloud Messaging (FCM) v1 push notifications directly from your IDE. No need to use `curl` commands or external tools anymore!
 
@@ -55,7 +55,7 @@ To build the plugin distribution file (`.zip`):
 ```bash
 ./gradlew :pushify-plugin:buildPlugin
 ```
-The output file will be located at `ide-plugin/build/distributions/`.
+The output file will be located at `pushify-plugin/build/distributions/`.
 
 ## License
 

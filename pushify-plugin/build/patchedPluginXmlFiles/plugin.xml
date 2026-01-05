@@ -1,6 +1,6 @@
 <idea-plugin>
   <version>1.0-SNAPSHOT</version>
-  <idea-version since-build="232" until-build="242.*" />
+  <idea-version since-build="232" until-build="253.*" />
   <id>com.fotsapp.pushify.plugin</id>
   <name>Pushify</name>
   <vendor email="support@fotsapp.com" url="https://github.com/fotsapp">FotsApp</vendor>

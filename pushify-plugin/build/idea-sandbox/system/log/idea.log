@@ -8835,3 +8835,525 @@ java.lang.Throwable: 'settings.category.plugıns.description' is not found in ja
 2026-01-05 08:24:05,020 [   9678]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
 2026-01-05 08:24:05,022 [   9680]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2ms.
 2026-01-05 08:24:05,057 [   9715]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2026-01-05 08:30:52,762 [     12]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2026-01-05 08:30:52,766 [     16]   INFO - #c.i.u.EnvironmentUtil - loading shell env is skipped: IDE has been launched from a terminal (SHLVL=2)
+2026-01-05 08:30:52,812 [     62]   INFO - #c.i.i.AppStarter - JNA library (64-bit) loaded in 46 ms
+2026-01-05 08:30:52,816 [     66]   INFO - #c.i.i.AppStarter - IDE: IntelliJ IDEA (build #IC-232.10300.40, 14 Feb 2024 18:18)
+2026-01-05 08:30:52,816 [     66]   INFO - #c.i.i.AppStarter - OS: Mac OS X (26.2)
+2026-01-05 08:30:52,816 [     66]   INFO - #c.i.i.AppStarter - JRE: 17.0.10+7-b1000.48, aarch64 (JetBrains s.r.o.)
+2026-01-05 08:30:52,816 [     66]   INFO - #c.i.i.AppStarter - JVM: 17.0.10+7-b1000.48 (OpenJDK 64-Bit Server VM)
+2026-01-05 08:30:52,819 [     69]   INFO - #c.i.i.AppStarter - PID: 53591
+2026-01-05 08:30:52,822 [     72]   INFO - #c.i.i.AppStarter - JVM options: [-Daether.connector.resumeDownloads=false, -Dapple.awt.application.appearance=system, -Dapple.awt.fileDialogForDirectories=true, -Dapple.laf.useScreenMenuBar=true, -Didea.auto.reload.plugins=true, -Didea.classpath.index.enabled=false, -Didea.config.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/config, -Didea.is.internal=true, -Didea.log.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system/log, -Didea.paths.selector=IdeaIC2023.2, -Didea.platform.prefix=Idea, -Didea.plugin.in.sandbox.mode=true, -Didea.plugins.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/plugins, -Didea.required.plugins.id=com.fotsapp.pushify.plugin, -Didea.smooth.progress=false, -Didea.system.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system, -Didea.vendor.name=JetBrains, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Djbr.catch.SIGABRT=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Djna.boot.library.path=/Users/fevziomurtekin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.2.6/89eb58d1c063c9fbd762e99bc8abdbbc82aa9917/ideaIC-2023.2.6/lib/jna/aarch64, -Djna.noclasspath=true, -Djna.nosys=true, -Dpty4j.preferred.native.folder=/Users/fevziomurtekin/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.2.6/89eb58d1c063c9fbd762e99bc8abdbbc82aa9917/ideaIC-2023.2.6/lib/pty4j, -Dsplash=true, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -XX:ReservedCodeCacheSize=512m, -XX:+UseG1GC, -XX:SoftRefLRUPolicyMSPerMB=50, -XX:CICompilerCount=2, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -XX:CompileCommand=exclude,com/intellij/openapi/vfs/impl/FilePartNodeRoot,trieDescend, -javaagent:/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/tmp/initializeIntelliJPlugin/coroutines-javaagent.jar, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED, --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xms128m, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=TR, -Duser.language=tr, -Duser.variant, -ea]
+2026-01-05 08:30:52,823 [     73]   INFO - #c.i.i.AppStarter - args: traverseUI /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions true
+2026-01-05 08:30:52,823 [     73]   INFO - #c.i.i.AppStarter - library path: /Users/fevziomurtekin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2026-01-05 08:30:52,823 [     73]   INFO - #c.i.i.AppStarter - boot library path: /Users/fevziomurtekin/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr_jcef-17.0.10-osx-aarch64-b1000.48/extracted/jbr_jcef-17.0.10-osx-aarch64-b1000.48/Contents/Home/lib
+2026-01-05 08:30:52,825 [     75]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.2.6/89eb58d1c063c9fbd762e99bc8abdbbc82aa9917/ideaIC-2023.2.6/plugins/Groovy, version=232.10300.40, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2026-01-05 08:30:52,826 [     76]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2023.2.6/89eb58d1c063c9fbd762e99bc8abdbbc82aa9917/ideaIC-2023.2.6/plugins/Groovy, version=232.10300.40, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2026-01-05 08:30:52,840 [     90]   INFO - #c.i.i.AppStarter - locale=tr_TR JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/config
+    idea.system.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system
+    idea.plugins.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/plugins
+    idea.log.path=/Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system/log
+2026-01-05 08:30:52,842 [     92]   INFO - #c.i.i.AppStarter - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@25894340[Running, parallelism = 12, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@25609d08
+2026-01-05 08:30:52,905 [    155]   INFO - #c.i.i.p.PluginManager - Module intellij.sh.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.space.gateway is not enabled because dependency com.jetbrains.gateway is not available
+Module intellij.space.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.space.index is not enabled because dependency intellij.indexing.shared is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.js is not enabled because dependency JavaScript is not available
+2026-01-05 08:30:52,912 [    162]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Android Design Tools (232.10300.40), NetBeans Keymap (232.10300.40), com.intellij.dev (232.10300.40), Groovy (232.10300.40), TestNG (232.10300.40), Gradle-Java (232.10300.40), Gradle-Maven (232.10300.40), TextMate Bundles (232.10300.40), Plugin DevKit (232.10300.40), Machine Learning Code Completion (232.10300.40), Java (232.10300.40), Java IDE Customization (232.10300.40), Ant (232.10300.40), Grazie Lite (232.10300.40), Maven server api classes (232.10300.40), Subversion (232.10300.40), Gradle-Java-Analysis (232.10300.40), Kotlin (232-1.9.0-IJ10300.40), JetBrains Marketplace Licensing (232.10300.40), JetBrains Repository Search (232.10300.40), Performance Testing (232.10300.40), Java Internationalization (232.10300.40), Mercurial (232.10300.40), Visual Studio Keymap (232.10300.40), Qodana (232.10300.40), Images (232.10300.40), Toml (232.10300.40), Projector Libraries for Code With Me and Remote Development (232.10300.40), Emoji Picker (232.10300.40), WebP Support (232.10300.40), Shared Indexes (232.10300.40), Machine Learning in Search Everywhere (232.10300.40), JUnit (232.10300.40), Markdown (232.10300.40), Perforce Helix Core (232.10300.40), Java Stream Debugger (232.10300.40), Eclipse Interoperability (232.10300.40), HTML Tools (232.10300.40), Properties (232.10300.40), Java Bytecode Decompiler (232.10300.40), Bytecode Viewer (232.10300.40), Maven (232.10300.40), GitHub (232.10300.40), XPathView + XSLT (232.10300.40), Gradle (232.10300.40), Terminal (232.10300.40), GitLab (232.10300.40), Eclipse Keymap (232.10300.40), UI Designer (232.10300.40), Git (232.10300.40), YAML (232.10300.40), Shell Script (232.10300.40), Settings Sync (232.10300.40), IntelliLang (232.10300.40), Package Checker (232.10300.40), JetBrains maven model api classes (232.10300.40), Code With Me (232.10300.40), Gradle Dependency Updater Implementation (232.10300.40), Async Profiler for IDE Performance Testing (232.10300.40), Gradle DSL API (232.10300.40), EditorConfig (232.10300.40), Space (232.10300.40), Android (2022.3.1 Final.232.10300.40), Code Coverage for Java (232.10300.40), com.intellij.tracing.ide (232.10300.40), JavaFX (232.10300.40), Copyright (232.10300.40), IDE Features Trainer (232.10300.40), Configuration Script (232.10300.40), Task Management (232.10300.40), IDEA CORE (232.10300.40)
+2026-01-05 08:30:52,912 [    162]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: Pushify (1.0-SNAPSHOT)
+2026-01-05 08:30:53,061 [    311]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/Users/fevziomurtekin/.m2/repository}
+2026-01-05 08:30:53,108 [    358]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2026-01-05 08:30:53,109 [    359]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE:10485760
+2026-01-05 08:30:53,109 [    359]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular
+2026-01-05 08:30:53,109 [    359]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2026-01-05 08:30:53,115 [    365]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2026-01-05 08:30:53,138 [    388]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses strict names enumerator
+2026-01-05 08:30:53,155 [    405]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS uses new (streamlined) attributes storage
+2026-01-05 08:30:53,192 [    442]   INFO - #c.i.o.v.n.p.FSRecords - using OVER_MMAPPED_FILE storage for VFS records
+2026-01-05 08:30:53,196 [    446]   INFO - #c.i.o.v.n.p.PersistentFSConnector - VFS: impl (expected) version=576319, 103902 file records, 8 content blobs
+2026-01-05 08:30:53,197 [    447]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63343
+2026-01-05 08:30:53,225 [    475]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2026-01-05 08:30:53,233 [    483]   INFO - #c.i.o.v.n.p.PersistentFSConnector - 37 ms to self-checks, load free records and inverted name index
+2026-01-05 08:30:53,252 [    502]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2026-01-05 08:30:53,273 [    523]   INFO - #com.android.tools.idea.serverflags.ServerFlagInitializer - Enabled server flags: 
+2026-01-05 08:30:53,421 [    671]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check disabled
+2026-01-05 08:30:53,449 [    699]   INFO - #c.j.r.p.c.p.w.s.WireStorage - Start Wire Storage check: Check Wire Buffer Size
+2026-01-05 08:30:53,482 [    732]   INFO - #c.i.o.a.Experiments - Experimental features enabled for user: wsl.p9.support, wsl.prefer.p9.support, wsl.p9.show.roots.in.file.chooser, wsl.execute.with.wsl.exe, linux.native.menu, recent.and.edited.files.together, show.create.new.element.in.popup, search.everywhere.mixed.results, new.project.wizard, editor.reader.mode, new.large.text.file.viewer, terminal.shell.command.handling
+2026-01-05 08:30:53,499 [    749]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2026-01-05 08:30:53,731 [    981]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:FilenameIndex(v = 258)
+2026-01-05 08:30:53,732 [    982]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2026-01-05 08:30:53,736 [    986]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 309 ms. Initialized indexes: [FilenameIndex, filetypes, DomFileIndex, Trigram.Index, XmlTagNames, html5.custom.attributes.index, RelaxSymbolIndex, XmlNamespaces, SchemaTypeInheritance, java.auto.module.name, TodoIndex, IdIndex, FrameworkDetectionIndex, yaml.keys.name, HtmlTagIdIndex, fileIncludes, json.file.root.values, XsltSymbolIndex, editorconfig.index.name, xmlProperties, java.source.module.name, java.null.method.argument, java.fun.expression, IdeaPluginRegistrationIndex, java.binary.plus.expression, PluginIdModuleIndex, devkit.ExtensionPointClassIndex, ant-imports, devkit.ExtensionPointIndex, PluginIdDependenciesIndex, bytecodeAnalysis, JavaFxControllerClassIndex, javafx.id.name, javafx.custom.component, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinShortClassNameFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.base.indices.names.KotlinTopLevelCallableByPackageShortNameIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, NavXmlIndex, org.jetbrains.kotlin.idea.base.indices.names.KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex, BindingXmlIndex, com.android.tools.idea.model.AndroidManifestIndex, com.intellij.uiDesigner.FormClassIndex, Stubs].
+2026-01-05 08:30:53,886 [   1136]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 149 ms. Initialized stub indexes: {java.field.name, kotlin.primeIndexKey, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExtensionsInObjectsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, gr.script.fqn.s, java.method.parameter.types, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, gr.class.fqn, jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, dom.elementClass, gr.method.name, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, gr.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex, gr.script.class, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex, gr.class.fqn.s, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, java.module.name, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, markdown.header.anchor, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex, jvm.static.member.name, dom.namespaceKey, java.annotations, gr.class.super, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex, java.class.shortname, java.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, properties.index, gr.annot.method.name, gr.script.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex}.
+2026-01-05 08:30:54,626 [   1876]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-01-05 08:30:54,712 [   1962]   INFO - #c.i.u.p.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html>
+2026-01-05 08:30:55,406 [   2656]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2026-01-05 08:30:56,014 [   3264] SEVERE - #c.i.BundleBase - 'settings.category.uı.name' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.uı.name' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getName(SyncCategoryHolder.kt:77)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getName(SyncCategoryHolder.kt:17)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:45)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,017 [   3267] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,017 [   3267] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,017 [   3267] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:56,029 [   3279] SEVERE - #c.i.BundleBase - 'settings.category.uı.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.uı.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getDescription(SyncCategoryHolder.kt:82)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getDescription(SyncCategoryHolder.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:57)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,031 [   3281] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,031 [   3281] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,032 [   3282] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:56,033 [   3283] SEVERE - #c.i.BundleBase - 'settings.category.uı.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.uı.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getDescription(SyncCategoryHolder.kt:82)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getDescription(SyncCategoryHolder.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:57)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,034 [   3284] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,034 [   3284] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,034 [   3284] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:56,037 [   3287] SEVERE - #c.i.BundleBase - 'settings.category.plugıns.name' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.plugıns.name' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getName(SyncCategoryHolder.kt:77)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getName(SyncCategoryHolder.kt:17)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:45)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,038 [   3288] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,038 [   3288] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,038 [   3288] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:56,039 [   3289] SEVERE - #c.i.BundleBase - 'settings.category.plugıns.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.plugıns.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getDescription(SyncCategoryHolder.kt:82)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getDescription(SyncCategoryHolder.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:57)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,040 [   3290] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,040 [   3290] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,040 [   3290] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:56,041 [   3291] SEVERE - #c.i.BundleBase - 'settings.category.plugıns.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+java.lang.Throwable: 'settings.category.plugıns.description' is not found in java.util.PropertyResourceBundle@4dff871(messages.SettingsSyncBundle)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:370)
+	at com.intellij.BundleBase.useDefaultValue(BundleBase.kt:138)
+	at com.intellij.BundleBase.messageOrDefault(BundleBase.kt:85)
+	at com.intellij.AbstractBundle.getMessage(AbstractBundle.java:59)
+	at com.intellij.settingsSync.SettingsSyncBundle.message(SettingsSyncBundle.kt:14)
+	at com.intellij.settingsSync.config.SyncCategoryHolder$Category.getDescription(SyncCategoryHolder.kt:82)
+	at com.intellij.settingsSync.config.SyncCategoryHolder.getDescription(SyncCategoryHolder.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:57)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2$1.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:58)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.row(PanelImpl.kt:20)
+	at com.intellij.ui.dsl.builder.Panel.row$default(Panel.kt:76)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:33)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1$2.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:398)
+	at com.intellij.ui.dsl.builder.impl.PanelImpl.indent(PanelImpl.kt:20)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:32)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory$createPanel$1.invoke(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.ui.dsl.builder.BuilderKt.panel(builder.kt:19)
+	at com.intellij.settingsSync.config.SettingsSyncPanelFactory.createPanel(SettingsSyncPanelFactory.kt:26)
+	at com.intellij.settingsSync.config.SettingsSyncConfigurable.createPanel(SettingsSyncConfigurable.kt:130)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:35)
+	at com.intellij.openapi.options.DslConfigurableBase$panel$1.compute(BoundConfigurable.kt:30)
+	at com.intellij.openapi.util.ClearableLazyValue.getValue(ClearableLazyValue.java:43)
+	at com.intellij.openapi.options.DslConfigurableBase.createComponent(BoundConfigurable.kt:43)
+	at com.intellij.openapi.options.ex.ConfigurableWrapper.createComponent(ConfigurableWrapper.java:181)
+	at com.intellij.ide.ui.search.SearchUtil.processConfigurables(SearchUtil.java:72)
+	at com.intellij.ide.ui.search.TraverseUIStarter.lambda$startup$0(TraverseUIStarter.java:117)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:792)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:739)
+	at java.desktop/java.awt.EventQueue$3.run(EventQueue.java:733)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:761)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:690)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent$lambda$10(IdeEventQueue.kt:593)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWithoutImplicitRead(ApplicationImpl.java:1485)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:593)
+	at com.intellij.ide.IdeEventQueue.access$_dispatchEvent(IdeEventQueue.kt:67)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:369)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1$1.compute(IdeEventQueue.kt:368)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:787)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:368)
+	at com.intellij.ide.IdeEventQueue$dispatchEvent$processEventRunnable$1$1.invoke(IdeEventQueue.kt:363)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$1(IdeEventQueue.kt:997)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:105)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:997)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$7(IdeEventQueue.kt:363)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:861)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:405)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2026-01-05 08:30:56,043 [   3293] SEVERE - #c.i.BundleBase - IntelliJ IDEA 2023.2.6  Build #IC-232.10300.40
+2026-01-05 08:30:56,044 [   3294] SEVERE - #c.i.BundleBase - JDK: 17.0.10; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-01-05 08:30:56,044 [   3294] SEVERE - #c.i.BundleBase - OS: Mac OS X
+2026-01-05 08:30:57,063 [   4313]   WARN - JetBrains UI DSL - Row should not be empty
+2026-01-05 08:30:57,235 [   4485]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'lobbyServerUrl' value in [/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Library/Application Support/JetBrains/CodeWithMe/config.json, /Users/fevziomurtekin/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Users/fevziomurtekin/Library/Application Support/JetBrains/CodeWithMe/config.json]
+2026-01-05 08:30:57,236 [   4486]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'lobbyServerUrl' is not found
+2026-01-05 08:30:57,236 [   4486]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Setting default value='https://code-with-me.jetbrains.com'
+2026-01-05 08:30:57,245 [   4495]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'lobbyServerUrl' value in [/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Library/Application Support/JetBrains/CodeWithMe/config.json, /Users/fevziomurtekin/Library/Application Support/JetBrains/CodeWithMe/lobbyServerUrl, /Users/fevziomurtekin/Library/Application Support/JetBrains/CodeWithMe/config.json]
+2026-01-05 08:30:57,245 [   4495]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'lobbyServerUrl' is not found
+2026-01-05 08:30:57,245 [   4495]   INFO - #c.j.r.p.c.u.CodeWithMeSystemSettings - Setting default value='https://code-with-me.jetbrains.com'
+2026-01-05 08:30:58,050 [   5300]   WARN - #c.i.u.j.JBCefApp - JCEF is manually disabled in headless env via 'ide.browser.jcef.headless.enabled=false'
+2026-01-05 08:30:58,053 [   5303]   INFO - #org.intellij.plugins.markdown.settings.MarkdownSettings - Migrating Markdown settings
+2026-01-05 08:30:58,815 [   6065]   INFO - STDOUT - Found 222 configurables
+2026-01-05 08:30:59,661 [   6911]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/devkit.jar!/search/devkit.jar!.searchableOptions.xml
+2026-01-05 08:30:59,662 [   6912]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/textmate.jar/search/textmate.jar.searchableOptions.xml
+2026-01-05 08:30:59,664 [   6914]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/markdown.jar/search/markdown.jar.searchableOptions.xml
+2026-01-05 08:30:59,665 [   6915]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/IntelliLang.jar/search/IntelliLang.jar.searchableOptions.xml
+2026-01-05 08:30:59,665 [   6915]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/eclipse.jar/search/eclipse.jar.searchableOptions.xml
+2026-01-05 08:30:59,666 [   6916]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/tasks-core.jar/search/tasks-core.jar.searchableOptions.xml
+2026-01-05 08:30:59,666 [   6916]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/sh.jar/search/sh.jar.searchableOptions.xml
+2026-01-05 08:30:59,667 [   6917]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-coverage.jar/search/java-coverage.jar.searchableOptions.xml
+2026-01-05 08:30:59,667 [   6917]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/devkit.jar/search/devkit.jar.searchableOptions.xml
+2026-01-05 08:30:59,668 [   6918]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-impl.jar!/search/java-impl.jar!.searchableOptions.xml
+2026-01-05 08:30:59,668 [   6918]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/javaFX.jar!/search/javaFX.jar!.searchableOptions.xml
+2026-01-05 08:30:59,669 [   6919]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/searchEverywhereMl.jar/search/searchEverywhereMl.jar.searchableOptions.xml
+2026-01-05 08:30:59,669 [   6919]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/idea-junit.jar!/search/idea-junit.jar!.searchableOptions.xml
+2026-01-05 08:30:59,670 [   6920]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/uiDesigner.jar/search/uiDesigner.jar.searchableOptions.xml
+2026-01-05 08:30:59,671 [   6921]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/javaFX.jar/search/javaFX.jar.searchableOptions.xml
+2026-01-05 08:30:59,672 [   6922]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/dev.jar/search/dev.jar.searchableOptions.xml
+2026-01-05 08:30:59,674 [   6924]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/space.jar/search/space.jar.searchableOptions.xml
+2026-01-05 08:30:59,675 [   6925]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/cwm-plugin-terminal.jar/search/cwm-plugin-terminal.jar.searchableOptions.xml
+2026-01-05 08:30:59,675 [   6925]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-svn.jar/search/vcs-svn.jar.searchableOptions.xml
+2026-01-05 08:30:59,676 [   6926]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/byteCodeViewer.jar/search/byteCodeViewer.jar.searchableOptions.xml
+2026-01-05 08:30:59,676 [   6926]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/testng-plugin.jar!/search/testng-plugin.jar!.searchableOptions.xml
+2026-01-05 08:30:59,676 [   6926]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/android.jar!/search/android.jar!.searchableOptions.xml
+2026-01-05 08:30:59,676 [   6926]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/marketplace.jar/search/marketplace.jar.searchableOptions.xml
+2026-01-05 08:30:59,678 [   6928]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/maven.jar/search/maven.jar.searchableOptions.xml
+2026-01-05 08:30:59,680 [   6930]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/copyright.jar/search/copyright.jar.searchableOptions.xml
+2026-01-05 08:30:59,681 [   6931]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/maven.jar!/search/maven.jar!.searchableOptions.xml
+2026-01-05 08:30:59,683 [   6933]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/Groovy.jar/search/Groovy.jar.searchableOptions.xml
+2026-01-05 08:30:59,684 [   6934]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/gradle-java.jar/search/gradle-java.jar.searchableOptions.xml
+2026-01-05 08:30:59,685 [   6935]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/terminal.jar/search/terminal.jar.searchableOptions.xml
+2026-01-05 08:30:59,685 [   6935]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/antIntegration.jar/search/antIntegration.jar.searchableOptions.xml
+2026-01-05 08:30:59,686 [   6936]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/performanceTesting-async.jar/search/performanceTesting-async.jar.searchableOptions.xml
+2026-01-05 08:30:59,686 [   6936]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/properties.jar/search/properties.jar.searchableOptions.xml
+2026-01-05 08:30:59,689 [   6939]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-impl.jar/search/java-impl.jar.searchableOptions.xml
+2026-01-05 08:30:59,689 [   6939]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/adt-ui.jar/search/adt-ui.jar.searchableOptions.xml
+2026-01-05 08:30:59,698 [   6948]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/app-client.jar/search/app-client.jar.searchableOptions.xml
+2026-01-05 08:30:59,698 [   6948]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/html-tools.jar/search/html-tools.jar.searchableOptions.xml
+2026-01-05 08:30:59,699 [   6949]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-perforce.jar/search/vcs-perforce.jar.searchableOptions.xml
+2026-01-05 08:30:59,699 [   6949]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-debugger-streams.jar/search/java-debugger-streams.jar.searchableOptions.xml
+2026-01-05 08:30:59,700 [   6950]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/gradle.jar/search/gradle.jar.searchableOptions.xml
+2026-01-05 08:30:59,700 [   6950]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/testng-plugin.jar/search/testng-plugin.jar.searchableOptions.xml
+2026-01-05 08:30:59,700 [   6950]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/grazie.jar/search/grazie.jar.searchableOptions.xml
+2026-01-05 08:30:59,701 [   6951]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/qodana.jar/search/qodana.jar.searchableOptions.xml
+2026-01-05 08:30:59,703 [   6953]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/app.jar/search/app.jar.searchableOptions.xml
+2026-01-05 08:30:59,704 [   6954]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/android.jar/search/android.jar.searchableOptions.xml
+2026-01-05 08:30:59,704 [   6954]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/completionMlRanking.jar/search/completionMlRanking.jar.searchableOptions.xml
+2026-01-05 08:30:59,705 [   6955]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-decompiler.jar/search/java-decompiler.jar.searchableOptions.xml
+2026-01-05 08:30:59,705 [   6955]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-hg.jar/search/vcs-hg.jar.searchableOptions.xml
+2026-01-05 08:30:59,705 [   6955]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/xpath.jar/search/xpath.jar.searchableOptions.xml
+2026-01-05 08:30:59,706 [   6956]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/performanceTesting.jar/search/performanceTesting.jar.searchableOptions.xml
+2026-01-05 08:30:59,706 [   6956]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-gitlab.jar/search/vcs-gitlab.jar.searchableOptions.xml
+2026-01-05 08:30:59,706 [   6956]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/cwm-common.jar/search/cwm-common.jar.searchableOptions.xml
+2026-01-05 08:30:59,706 [   6956]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/java-i18n.jar/search/java-i18n.jar.searchableOptions.xml
+2026-01-05 08:30:59,707 [   6957]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/Groovy.jar!/search/Groovy.jar!.searchableOptions.xml
+2026-01-05 08:30:59,707 [   6957]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/emojipicker.jar/search/emojipicker.jar.searchableOptions.xml
+2026-01-05 08:30:59,708 [   6958]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/toml.jar/search/toml.jar.searchableOptions.xml
+2026-01-05 08:30:59,708 [   6958]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/idea-junit.jar/search/idea-junit.jar.searchableOptions.xml
+2026-01-05 08:30:59,708 [   6958]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/yaml.jar/search/yaml.jar.searchableOptions.xml
+2026-01-05 08:30:59,709 [   6959]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/packageChecker.jar/search/packageChecker.jar.searchableOptions.xml
+2026-01-05 08:30:59,709 [   6959]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/platform-tracing-ide.jar/search/platform-tracing-ide.jar.searchableOptions.xml
+2026-01-05 08:30:59,709 [   6959]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/editorconfig.jar/search/editorconfig.jar.searchableOptions.xml
+2026-01-05 08:30:59,710 [   6960]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-github.jar/search/vcs-github.jar.searchableOptions.xml
+2026-01-05 08:30:59,710 [   6960]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/platform-langInjection.jar/search/platform-langInjection.jar.searchableOptions.xml
+2026-01-05 08:30:59,710 [   6960]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/platform-images.jar/search/platform-images.jar.searchableOptions.xml
+2026-01-05 08:30:59,711 [   6961]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/vcs-git.jar/search/vcs-git.jar.searchableOptions.xml
+2026-01-05 08:30:59,711 [   6961]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/kotlin-plugin.jar/search/kotlin-plugin.jar.searchableOptions.xml
+2026-01-05 08:30:59,712 [   6962]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/modules.jar/search/modules.jar.searchableOptions.xml
+2026-01-05 08:30:59,712 [   6962]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/indexing-shared.jar/search/indexing-shared.jar.searchableOptions.xml
+2026-01-05 08:30:59,712 [   6962]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/featuresTrainer.jar/search/featuresTrainer.jar.searchableOptions.xml
+2026-01-05 08:30:59,712 [   6962]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/design-tools.jar/search/design-tools.jar.searchableOptions.xml
+2026-01-05 08:30:59,713 [   6963]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/kotlin-plugin.jar!/search/kotlin-plugin.jar!.searchableOptions.xml
+2026-01-05 08:30:59,713 [   6963]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/cwm-host.jar/search/cwm-host.jar.searchableOptions.xml
+2026-01-05 08:30:59,714 [   6964]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/gradle-java-maven.jar/search/gradle-java-maven.jar.searchableOptions.xml
+2026-01-05 08:30:59,714 [   6964]   INFO - STDOUT - Output written to /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/searchableOptions/settingsSync.jar/search/settingsSync.jar.searchableOptions.xml
+2026-01-05 08:30:59,715 [   6965]   INFO - STDOUT - Searchable options index builder completed
+2026-01-05 08:30:59,729 [   6979]   INFO - #o.j.i.BuiltInServer - web server stopped
+2026-01-05 08:30:59,734 [   6984]   INFO - #c.j.r.p.c.p.w.s.WireStorage - Terminate Wire Storage lifetime
+2026-01-05 08:30:59,734 [   6984]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2026-01-05 08:30:59,737 [   6987]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-01-05 08:30:59,756 [   7006]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-01-05 08:30:59,756 [   7006]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system/index/rep.names
+2026-01-05 08:30:59,756 [   7006]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/fevziomurtekin/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system/index/rep.names
+2026-01-05 08:30:59,757 [   7007]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 21ms.
+2026-01-05 08:30:59,844 [   7094]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2026-01-05 08:30:59,848 [   7098]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 4ms.
+2026-01-05 08:30:59,874 [   7124]   INFO - #c.i.i.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

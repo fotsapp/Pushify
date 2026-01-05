@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.fotsapp.pushify.plugin</id>
+    <name>Pushify</name>
+    <vendor email="support@fotsapp.com" url="https://github.com/fotsapp">FotsApp</vendor>
+
+    <description><![CDATA[
+    A simple tool to send Firebase Push Notifications (FCM) directly from Android Studio / IntelliJ IDEA.<br>
+    Open the <b>Pushify</b> tool window, enter your Project ID and Bearer Token, and start sending notifications.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow anchor="right"
+            factoryClass="com.fotsapp.pushify.plugin.PushifyToolWindowFactory"
+            icon="com.fotsapp.pushify.plugin.Icons.ToolWindow" id="Pushify" secondary="true" />
+    </extensions>
+</idea-plugin>
+

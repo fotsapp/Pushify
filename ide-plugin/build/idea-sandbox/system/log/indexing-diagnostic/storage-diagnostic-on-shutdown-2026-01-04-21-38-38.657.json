@@ -1,0 +1,91 @@
+{
+  "pageCacheStats" : {
+    "cachedChannelsStatistics" : {
+      "hit" : 7,
+      "miss" : 0,
+      "load" : 118,
+      "capacity" : 400
+    },
+    "uncachedFileAccess" : 131,
+    "maxRegisteredFiles" : 617,
+    "maxCacheSizeInBytes" : 266371072,
+    "totalCachedSizeInBytes" : 18907136,
+    "pageHits" : 0,
+    "pageFastCacheHits" : 179627,
+    "pageLoadsAboveSizeThreshold" : 0,
+    "regularPageLoads" : 252,
+    "disposedBuffers" : 239,
+    "totalPageDisposalUs" : 1278,
+    "totalPageLoadUs" : 191586,
+    "totalPagesLoaded" : 252,
+    "capacityInBytes" : 524288000
+  },
+  "vfsStorageStats" : {
+    "statsPerEnumerator" : {
+      "contentHashes.dat" : {
+        "collisions" : 0,
+        "values" : 8,
+        "dataFileSizeInBytes" : 160,
+        "storageSizeInBytes" : 96,
+        "btreeStatistics" : {
+          "pages" : 1,
+          "elements" : 8,
+          "height" : 1,
+          "moves" : 0,
+          "leafPages" : 1,
+          "maxSearchStepsInRequest" : 0,
+          "searchRequests" : 19,
+          "searchSteps" : 0,
+          "pageCapacity" : 32768,
+          "sizeInBytes" : 32768
+        }
+      },
+      "names.dat" : {
+        "collisions" : 4,
+        "values" : 90418,
+        "dataFileSizeInBytes" : 2795918,
+        "storageSizeInBytes" : 160,
+        "btreeStatistics" : {
+          "pages" : 33,
+          "elements" : 90415,
+          "height" : 2,
+          "moves" : 246,
+          "leafPages" : 32,
+          "maxSearchStepsInRequest" : 78,
+          "searchRequests" : 310523,
+          "searchSteps" : 464031,
+          "pageCapacity" : 32768,
+          "sizeInBytes" : 1081344
+        }
+      }
+    }
+  },
+  "indexStorageStats" : {
+    "indexStoragesStats" : { }
+  },
+  "otherStorageStats" : {
+    "statsPerPhm" : {
+      "$USER_HOME$/AndroidStudioProjects/Pushify/ide-plugin/build/idea-sandbox/system/frameworks/detection/untitled.879762c8/files" : {
+        "persistentEnumeratorStatistics" : {
+          "collisions" : 0,
+          "values" : 0,
+          "dataFileSizeInBytes" : 0,
+          "storageSizeInBytes" : 96,
+          "btreeStatistics" : {
+            "pages" : 0,
+            "elements" : 0,
+            "height" : 0,
+            "moves" : 0,
+            "leafPages" : 1,
+            "maxSearchStepsInRequest" : 0,
+            "searchRequests" : 0,
+            "searchSteps" : 0,
+            "pageCapacity" : 32768,
+            "sizeInBytes" : 0
+          }
+        },
+        "valueStorageSizeInBytes" : 0
+      }
+    }
+  }
+}

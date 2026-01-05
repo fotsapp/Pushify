@@ -13,5 +13,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Pushify"
-include(":ide-plugin")
+include(":pushify-plugin")
  

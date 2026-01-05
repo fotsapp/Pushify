@@ -46,14 +46,14 @@
 To run the plugin in a sandboxed IDE environment:
 
 ```bash
-./gradlew :ide-plugin:runIde
+./gradlew :pushify-plugin:runIde
 ```
 
 ### Building
 To build the plugin distribution file (`.zip`):
 
 ```bash
-./gradlew :ide-plugin:buildPlugin
+./gradlew :pushify-plugin:buildPlugin
 ```
 The output file will be located at `ide-plugin/build/distributions/`.
 

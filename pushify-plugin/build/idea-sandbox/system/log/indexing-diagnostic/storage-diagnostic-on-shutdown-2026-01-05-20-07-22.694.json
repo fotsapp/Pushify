@@ -1,7 +1,7 @@
 {
   "pageCacheStats" : {
     "cachedChannelsStatistics" : {
-      "hit" : 12,
+      "hit" : 22,
       "miss" : 0,
       "load" : 118,
       "capacity" : 400
@@ -11,12 +11,12 @@
     "maxCacheSizeInBytes" : 266371072,
     "totalCachedSizeInBytes" : 18907136,
     "pageHits" : 0,
-    "pageFastCacheHits" : 179654,
+    "pageFastCacheHits" : 1164109,
     "pageLoadsAboveSizeThreshold" : 0,
     "regularPageLoads" : 252,
     "disposedBuffers" : 239,
-    "totalPageDisposalUs" : 314,
-    "totalPageLoadUs" : 182153,
+    "totalPageDisposalUs" : 508,
+    "totalPageLoadUs" : 339373,
     "totalPagesLoaded" : 252,
     "capacityInBytes" : 524288000
   },
@@ -24,17 +24,17 @@
     "statsPerEnumerator" : {
       "contentHashes.dat" : {
         "collisions" : 0,
-        "values" : 6,
-        "dataFileSizeInBytes" : 120,
+        "values" : 8,
+        "dataFileSizeInBytes" : 160,
         "storageSizeInBytes" : 96,
         "btreeStatistics" : {
           "pages" : 1,
-          "elements" : 6,
+          "elements" : 8,
           "height" : 1,
           "moves" : 0,
           "leafPages" : 1,
           "maxSearchStepsInRequest" : 0,
-          "searchRequests" : 14,
+          "searchRequests" : 19,
           "searchSteps" : 0,
           "pageCapacity" : 32768,
           "sizeInBytes" : 32768
@@ -42,18 +42,18 @@
       },
       "names.dat" : {
         "collisions" : 4,
-        "values" : 90396,
-        "dataFileSizeInBytes" : 2795304,
+        "values" : 90421,
+        "dataFileSizeInBytes" : 2795993,
         "storageSizeInBytes" : 160,
         "btreeStatistics" : {
           "pages" : 33,
-          "elements" : 90393,
+          "elements" : 90418,
           "height" : 2,
           "moves" : 246,
           "leafPages" : 32,
           "maxSearchStepsInRequest" : 78,
-          "searchRequests" : 309480,
-          "searchSteps" : 463441,
+          "searchRequests" : 310551,
+          "searchSteps" : 464048,
           "pageCapacity" : 32768,
           "sizeInBytes" : 1081344
         }
@@ -65,7 +65,7 @@
   },
   "otherStorageStats" : {
     "statsPerPhm" : {
-      "$USER_HOME$/AndroidStudioProjects/Pushify/ide-plugin/build/idea-sandbox/system/frameworks/detection/untitled.879762c8/files" : {
+      "$USER_HOME$/StudioProjects/Pushify/pushify-plugin/build/idea-sandbox/system/frameworks/detection/untitled.879762c8/files" : {
         "persistentEnumeratorStatistics" : {
           "collisions" : 0,
           "values" : 0,
